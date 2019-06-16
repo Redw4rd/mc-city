@@ -16,14 +16,18 @@ I never wrote a paypal integration before on any website that I make. I worked f
 * Rcon server handler from valve (I never used it, but tested it's functionality so I left in the code :|)
 
 ## Verdict
+###### Good
+* It's a working website
+* It has User manager, Ticket system, E-commerce system
 
-Good | Bad
------------- | -------------
-It's a working website | The e-commerce system is poor (only few product)
-It has User manager, Ticket system, E-commerce system | No extra single page ability, just what is in the database hardcoded
- - | It's still buggy
- - | SQL migration does not work. (Fly away with site error code, because of migration :()
- - | Dropped project
+###### Bad
+* It's still buggy
+* The e-commerce system is poor (only few product)
+* No extra single page ability, just what is in the database hardcoded
+* SQL migration does not work. (Fly away with site error code, because of migration :()
+* Dropped project
+
+
 
 ## License
 
