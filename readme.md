@@ -1,26 +1,31 @@
-# Laravel PHP Framework
+# Pixelhero Minecraft website
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Pixelhero is a minecraft themed community. I enjoyed the work of this site, with my friend, who wrote the desktop app. 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+The hard part was: 
+I never wrote a paypal integration before on any website that I make. I worked from the paypal api documentation and as you can see **its just works!** The other coding challenge was the SMS purchase integration, but the provider also have a poor api so it's a bit lame.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+[>> You can find the active page here <<](https://pixelhero.hu)
 
-## Official Documentation
+## I worked with
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+* Bootstrap 3 ([Bootstrap website](https://getbootstrap.com))
+* Laravel ([Laravel website](http://laravel.com))
+* Paypal ([Paypal dev](https://developer.paypal.com/docs/api/overview/))
+* SMS provider ([Info-tech Bt.](http://info-tech.hu))
+* Rcon server handler from valve (I never used it, but tested it's functionality so I left in the code :|)
 
-## Contributing
+## Verdict
+[+] It's a working website
+[+] It has User manager, Ticket system, E-commerce system
+[+] It's still buggy
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+[-] The e-commerce system is poor (only few product)
+[-] No extra single page ability, just what is in the database hardcoded
+[-] SQL migration does not work. (Fly away with site error code, because of migration :()
+[-] Dropped project
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
