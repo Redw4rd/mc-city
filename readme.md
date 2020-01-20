@@ -1,4 +1,4 @@
-# Pixelhero Minecraft website
+# Minecraft website
 
 Pixelhero is a minecraft themed community. I enjoyed the work of this site, with my friend, who wrote the desktop app. 
 
